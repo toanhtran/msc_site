@@ -124,11 +124,31 @@ ul {
 .navbar-default .navbar-toggle:hover>.icon-bar {
     background-color: #FFF
 }
-#tf-home {
-    background: url(../img/mountain.jpeg) center no-repeat fixed;
+#tf-home
+{
+    background: url(../img/mountain-min.jpeg) center no-repeat fixed;
     background-size: cover;
     color: #cfcfcf
 }
+#tf-events {
+    background: url(../img/events-01-min.jpg) center no-repeat fixed;
+    background-size: cover;
+    color: #cfcfcf
+}
+
+#tf-events .overlay {
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, .8) 0, rgba(0, 0, 0, .73) 17%, rgba(0, 0, 0, .66) 35%, rgba(0, 0, 0, .55) 62%, rgba(0, 0, 0, .4) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0, 0, 0, .8)), color-stop(17%, rgba(0, 0, 0, .73)), color-stop(35%, rgba(0, 0, 0, .66)), color-stop(62%, rgba(0, 0, 0, .55)), color-stop(100%, rgba(0, 0, 0, .4)));
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, .8) 0, rgba(0, 0, 0, .73) 17%, rgba(0, 0, 0, .66) 35%, rgba(0, 0, 0, .55) 62%, rgba(0, 0, 0, .4) 100%);
+    background: -o-linear-gradient(top, rgba(0, 0, 0, .8) 0, rgba(0, 0, 0, .73) 17%, rgba(0, 0, 0, .66) 35%, rgba(0, 0, 0, .55) 62%, rgba(0, 0, 0, .4) 100%);
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, .8) 0, rgba(0, 0, 0, .73) 17%, rgba(0, 0, 0, .66) 35%, rgba(0, 0, 0, .55) 62%, rgba(0, 0, 0, .4) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .8) 0, rgba(0, 0, 0, .73) 17%, rgba(0, 0, 0, .66) 35%, rgba(0, 0, 0, .55) 62%, rgba(0, 0, 0, .4) 100%);
+    height: 750px;
+    background-attachment: fixed
+}
+
+
+
 #tf-home .overlay {
     background: -moz-linear-gradient(top, rgba(0, 0, 0, .8) 0, rgba(0, 0, 0, .73) 17%, rgba(0, 0, 0, .66) 35%, rgba(0, 0, 0, .55) 62%, rgba(0, 0, 0, .4) 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0, 0, 0, .8)), color-stop(17%, rgba(0, 0, 0, .73)), color-stop(35%, rgba(0, 0, 0, .66)), color-stop(62%, rgba(0, 0, 0, .55)), color-stop(100%, rgba(0, 0, 0, .4)));
@@ -141,6 +161,15 @@ ul {
 }
 #tf-home p.lead {
     color: #e3e3e3
+}
+
+#tf-events p.lead {
+    color: #e3e3e3
+}
+
+.events-press {
+    margin-left: 0px;
+    width: 60%;
 }
 .content {
     position: relative;
@@ -193,7 +222,7 @@ ul.about-list li span {
     margin-right: 10px
 }
 #tf-team {
-    background: url(../img/03.jpg) center no-repeat fixed;
+    background: url(../img/03-min.jpg) center no-repeat fixed;
     background-size: cover;
     color: #fff
 }
@@ -557,4 +586,3 @@ nav#footer p {
     border-color: #4099ff;
     color: #ffffff;
 }
-
