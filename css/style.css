@@ -136,7 +136,13 @@ ul {
     color: #cfcfcf
 }
 
-#tf-events .overlay {
+#tf-sasebo {
+    background: url(../img/sasebo01-min.jpg) center no-repeat fixed;
+    background-size: cover;
+    color: #cfcfcf
+}
+
+#tf-events, #tf-sasebo .overlay {
     background: -moz-linear-gradient(top, rgba(0, 0, 0, .8) 0, rgba(0, 0, 0, .73) 17%, rgba(0, 0, 0, .66) 35%, rgba(0, 0, 0, .55) 62%, rgba(0, 0, 0, .4) 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0, 0, 0, .8)), color-stop(17%, rgba(0, 0, 0, .73)), color-stop(35%, rgba(0, 0, 0, .66)), color-stop(62%, rgba(0, 0, 0, .55)), color-stop(100%, rgba(0, 0, 0, .4)));
     background: -webkit-linear-gradient(top, rgba(0, 0, 0, .8) 0, rgba(0, 0, 0, .73) 17%, rgba(0, 0, 0, .66) 35%, rgba(0, 0, 0, .55) 62%, rgba(0, 0, 0, .4) 100%);
@@ -159,13 +165,10 @@ ul {
     height: 750px;
     background-attachment: fixed
 }
-#tf-home p.lead {
+#tf-home, #tf-events, #tf-sasebo p.lead {
     color: #e3e3e3
 }
 
-#tf-events p.lead {
-    color: #e3e3e3
-}
 
 .events-press {
     margin-left: 0px;
@@ -200,6 +203,7 @@ a.fa.fa-angle-up {
     font-size: 24px;
     margin-top: 50px;
     margin-left: 95%;
+    margin-right: auto;
     transition: all .5s
 }
 a.fa.fa-angle-up:hover {
